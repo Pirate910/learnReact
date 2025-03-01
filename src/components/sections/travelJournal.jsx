@@ -4,13 +4,6 @@ import palma from "../../assets/images/palma.jpg";
 import peguera from "../../assets/images/peguera.jpg";
 import katu from "../../assets/images/rainfall-katu.jpg";
 
-const pokemon = ["Bulbasaur", "Charmander", "Squirtle"];
-console.log(
-    pokemon.map((element, id) => {
-        return `<p>${element}</p>`;
-    })
-);
-
 function renderTravel() {
     const hours = new Date().getHours();
     let timeOfDay;
@@ -55,7 +48,7 @@ function renderTravel() {
                         <h2 className="mt-[7px] mb-[17px] text-[1.5rem] font-[700]">
                             {props.placeTitle}
                         </h2>
-                        <time datetime="2021-06-12" className="font-bold">
+                        <time dateTime="2021-06-12" className="font-bold">
                             12 Jan, 2021 - 24 Jan, 2025
                         </time>
                         <p className="text-[.8rem] leading-[1.5]">
