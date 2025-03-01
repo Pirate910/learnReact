@@ -2,6 +2,7 @@ import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
 import ReasonSec from "./components/sections/reason";
 import TravelSec from "./components/sections/travelJournal";
+import { ninjaTurtles } from "./challange/QuizOne";
 
 function App() {
     function Main() {
@@ -10,6 +11,7 @@ function App() {
                 <main className="main grow">
                     {/* <ReasonSec /> */}
                     <TravelSec />
+                    {ninjaTurtles}
                 </main>
             </>
         );
